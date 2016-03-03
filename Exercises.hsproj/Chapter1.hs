@@ -1,5 +1,5 @@
--- Chapter 1
-
+module Chapter1 where
+  
 {-
 “Give another possible calculation for the result of double (double 2).”
 

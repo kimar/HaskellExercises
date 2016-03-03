@@ -5,7 +5,9 @@ build-type: Simple
 license: AllRightsReserved
 stability: experimental
 Executable Exercises
-  main-is: Exercises.hs
+  main-is: Chapter1.hs
   buildable: True
   build-depends:
       base -any
+  other-modules:
+      Chapter2
