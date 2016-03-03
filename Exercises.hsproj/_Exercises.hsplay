@@ -1,5 +1,13 @@
 -- Haskell Playground 1.0
 -- Chapter 1
+
+-- Here ya go
+(double 2) + (double 2)
+
+-- Sum [x] = x!
+sm [1,2,3]
+
+-- Product implementation
 pdct [2,3,4]
 
 -- That's a reverse qsort

@@ -1,4 +1,20 @@
 -- Chapter 1
+
+{-
+“Give another possible calculation for the result of double (double 2).”
+
+Excerpt From: Graham Hutton. “Programming in Haskell.” iBooks.
+-}
+double x = x + x
+
+{-
+“Show that sum [x] = x for any number x.”
+
+Excerpt From: Graham Hutton. “Programming in Haskell.” iBooks. 
+-}
+sm [] = 0
+sm (x:xs) = x + sm xs
+
 {-
 “ Define a function product that produces the product of a list of numbers, and show using your definition that product [2, 3, 4] = 24.”
 
