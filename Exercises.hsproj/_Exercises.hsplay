@@ -2,4 +2,8 @@
 -- Chapter 1
 pdct [2,3,4]
 
+-- That's a reverse qsort
 qsortr [1,5,3,4,2,8]
+
+-- Effect: Deduplication
+qsort [2,2,3,1,1]
