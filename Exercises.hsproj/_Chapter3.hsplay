@@ -1,0 +1,15 @@
+-- Haskell Playground 1.0
+-- 1.
+['a', 'b', 'c']
+
+('a', 'b', 'c')
+
+[(False, '0'), (True, '1')]
+
+[(False, True), ('0', '1')]
+
+[tail, init, reverse]
+
+pldr "Nugget"
+
+pldr "otto"
