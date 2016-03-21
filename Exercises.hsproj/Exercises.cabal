@@ -10,5 +10,6 @@ Executable Exercises
   build-depends:
       base -any
   other-modules:
+      Chapter4
       Chapter2
       Chapter3
