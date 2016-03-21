@@ -6,10 +6,6 @@ module Chapter4 where
 Excerpt From: Graham Hutton. “Programming in Haskell.” iBooks. 
 --}
 
-half::[Int] -> [[Int]]
-half x = [a, b]
-  where
-    a = fst $ splitAt l x
-    b = snd $ splitAt l x
-    l = (length x) `div` 2
-    
+half::[Int] -> ([Int], [Int])
+half x = splitAt (length x `div` 2) x
+ 
